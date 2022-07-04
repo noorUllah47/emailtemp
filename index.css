@@ -1,0 +1,74 @@
+body {
+  font-family: "Inter";
+}
+.h1 {
+  font-size: 90px;
+  font-family: "Inter";
+}
+h2 {
+  color: black;
+  font-family: "Inter";
+  font-weight: 700 !important;
+}
+p {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 24px
+}
+li{
+  line-height: 24px
+
+}
+ol{
+    padding-inline-start: 19px !important;
+}
+.innerdiv {
+  background-color: #ffffff;
+  /* width: 431px; */
+  padding: 40px 24px;
+  border-radius: 8px;
+  color: #8b939e;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.button {
+  display: block;
+  width: 94%;
+  height: 27px;
+  background: #206feb;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  color: white;
+  line-height: 28px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.maindiv {
+  margin-top: 40px;
+  background-color: #f8f8f8;
+  width: 500px;
+  padding: 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center;
+}
+.logodiv {
+  display: flex;
+  justify-content: center;
+}
+.outerdiv {
+  /* height: 500px; */
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.copyRight {
+  color: #8b939e;
+  font-size: 14px !important;
+}
